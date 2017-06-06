@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<catalog>
+<document name="regions.xml">
+<element id="61" name="Region" count="5" path="/Regions/Region" parent="60"/>
+<element id="62" name="Name" count="5" path="/Regions/Region/Name" parent="61"/>
+<element id="60" name="Regions" count="1" path="/Regions" parent="-1"/>
+<element id="63" name="Comment" count="5" path="/Regions/Region/Comment" parent="61"/>
+</document>
+<document name="customers.xml">
+<element id="1" name="Customer" count="150000" path="/Customers/Customer" parent="0"/>
+<element id="2" name="Name" count="150000" path="/Customers/Customer/Name" parent="1"/>
+<element id="4" name="NationKey" count="150000" path="/Customers/Customer/NationKey" parent="1"/>
+<element id="8" name="Comment" count="150000" path="/Customers/Customer/Comment" parent="1"/>
+<element id="6" name="AcctBal" count="150000" path="/Customers/Customer/AcctBal" parent="1"/>
+<element id="7" name="MktSegment" count="150000" path="/Customers/Customer/MktSegment" parent="1"/>
+<element id="0" name="Customers" count="1" path="/Customers" parent="-1"/>
+<element id="3" name="Address" count="150000" path="/Customers/Customer/Address" parent="1"/>
+<element id="5" name="Phone" count="150000" path="/Customers/Customer/Phone" parent="1"/>
+</document>
+<document name="orders.xml">
+<element id="35" name="Revenue" count="6000051" path="/Orders/Order/LineItem/Revenue" parent="25"/>
+<element id="36" name="ReturnFlag" count="6000051" path="/Orders/Order/LineItem/ReturnFlag" parent="25"/>
+<element id="21" name="OrderPriority" count="1500000" path="/Orders/Order/OrderPriority" parent="15"/>
+<element id="22" name="Clerk" count="1500000" path="/Orders/Order/Clerk" parent="15"/>
+<element id="34" name="Charge" count="6000051" path="/Orders/Order/LineItem/Charge" parent="25"/>
+<element id="24" name="O_Comment" count="1500000" path="/Orders/Order/O_Comment" parent="15"/>
+<element id="18" name="OrderStatus" count="1500000" path="/Orders/Order/OrderStatus" parent="15"/>
+<element id="40" name="ReceiptDate" count="6000051" path="/Orders/Order/LineItem/ReceiptDate" parent="25"/>
+<element id="15" name="Order" count="1500000" path="/Orders/Order" parent="14"/>
+<element id="39" name="CommitDate" count="6000051" path="/Orders/Order/LineItem/CommitDate" parent="25"/>
+<element id="31" name="Discount" count="6000051" path="/Orders/Order/LineItem/Discount" parent="25"/>
+<element id="41" name="ShipInstruct" count="6000051" path="/Orders/Order/LineItem/ShipInstruct" parent="25"/>
+<element id="33" name="DiscountPrice" count="6000051" path="/Orders/Order/LineItem/DiscountPrice" parent="25"/>
+<element id="26" name="PartKey" count="6000051" path="/Orders/Order/LineItem/PartKey" parent="25"/>
+<element id="20" name="OrderDate" count="1500000" path="/Orders/Order/OrderDate" parent="15"/>
+<element id="29" name="Quantity" count="6000051" path="/Orders/Order/LineItem/Quantity" parent="25"/>
+<element id="43" name="L_Comment" count="6000051" path="/Orders/Order/LineItem/L_Comment" parent="25"/>
+<element id="38" name="ShipDate" count="6000051" path="/Orders/Order/LineItem/ShipDate" parent="25"/>
+<element id="27" name="SuppKey" count="6000051" path="/Orders/Order/LineItem/SuppKey" parent="25"/>
+<element id="37" name="LineStatus" count="6000051" path="/Orders/Order/LineItem/LineStatus" parent="25"/>
+<element id="30" name="ExtendedPrice" count="6000051" path="/Orders/Order/LineItem/ExtendedPrice" parent="25"/>
+<element id="23" name="ShipPriority" count="1500000" path="/Orders/Order/ShipPriority" parent="15"/>
+<element id="28" name="LineNumber" count="6000051" path="/Orders/Order/LineItem/LineNumber" parent="25"/>
+<element id="19" name="TotalPrice" count="1500000" path="/Orders/Order/TotalPrice" parent="15"/>
+<element id="32" name="Tax" count="6000051" path="/Orders/Order/LineItem/Tax" parent="25"/>
+<element id="16" name="OrderKey" count="1500000" path="/Orders/Order/OrderKey" parent="15"/>
+<element id="17" name="CustKey" count="1500000" path="/Orders/Order/CustKey" parent="15"/>
+<element id="25" name="LineItem" count="6000051" path="/Orders/Order/LineItem" parent="15"/>
+<element id="42" name="ShipMode" count="6000051" path="/Orders/Order/LineItem/ShipMode" parent="25"/>
+<element id="14" name="Orders" count="1" path="/Orders" parent="-1"/>
+</document>
+<document name="nations.xml">
+<element id="11" name="Name" count="25" path="/Nations/Nation/Name" parent="10"/>
+<element id="13" name="Comment" count="25" path="/Nations/Nation/Comment" parent="10"/>
+<element id="10" name="Nation" count="25" path="/Nations/Nation" parent="9"/>
+<element id="9" name="Nations" count="1" path="/Nations" parent="-1"/>
+<element id="12" name="RegionKey" count="25" path="/Nations/Nation/RegionKey" parent="10"/>
+</document>
+<document name="parts.xml">
+<element id="45" name="Part" count="200000" path="/Parts/Part" parent="44"/>
+<element id="54" name="P_Comment" count="200000" path="/Parts/Part/P_Comment" parent="45"/>
+<element id="59" name="PS_Comment" count="800000" path="/Parts/Part/PartSupp/PS_Comment" parent="55"/>
+<element id="51" name="Size" count="200000" path="/Parts/Part/Size" parent="45"/>
+<element id="50" name="Type" count="200000" path="/Parts/Part/Type" parent="45"/>
+<element id="55" name="PartSupp" count="800000" path="/Parts/Part/PartSupp" parent="45"/>
+<element id="57" name="Avail" count="800000" path="/Parts/Part/PartSupp/Avail" parent="55"/>
+<element id="58" name="SupplyCost" count="800000" path="/Parts/Part/PartSupp/SupplyCost" parent="55"/>
+<element id="56" name="Suppkey" count="800000" path="/Parts/Part/PartSupp/Suppkey" parent="55"/>
+<element id="47" name="Name" count="200000" path="/Parts/Part/Name" parent="45"/>
+<element id="49" name="Brand" count="200000" path="/Parts/Part/Brand" parent="45"/>
+<element id="46" name="PartKey" count="200000" path="/Parts/Part/PartKey" parent="45"/>
+<element id="52" name="Container" count="200000" path="/Parts/Part/Container" parent="45"/>
+<element id="48" name="Mfgr" count="200000" path="/Parts/Part/Mfgr" parent="45"/>
+<element id="44" name="Parts" count="1" path="/Parts" parent="-1"/>
+<element id="53" name="RetailPrice" count="200000" path="/Parts/Part/RetailPrice" parent="45"/>
+</document>
+<document name="suppliers.xml">
+<element id="68" name="NationKey" count="10000" path="/Suppliers/Supplier/NationKey" parent="65"/>
+<element id="65" name="Supplier" count="10000" path="/Suppliers/Supplier" parent="64"/>
+<element id="67" name="Address" count="10000" path="/Suppliers/Supplier/Address" parent="65"/>
+<element id="70" name="AcctBal" count="10000" path="/Suppliers/Supplier/AcctBal" parent="65"/>
+<element id="71" name="Comment" count="10000" path="/Suppliers/Supplier/Comment" parent="65"/>
+<element id="64" name="Suppliers" count="1" path="/Suppliers" parent="-1"/>
+<element id="66" name="Name" count="10000" path="/Suppliers/Supplier/Name" parent="65"/>
+<element id="69" name="Phone" count="10000" path="/Suppliers/Supplier/Phone" parent="65"/>
+</document>
+</catalog>

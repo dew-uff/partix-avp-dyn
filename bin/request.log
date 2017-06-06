@@ -1,0 +1,141 @@
+=2016-12-28 08:20:28,240 [main,0   ] INFO   - DBConnection Pool created!
+=2016-12-28 08:20:28,592 [main,352 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.001 [rmi://127.0.0.1:3001/NodeQueryProcessor]
+=2016-12-28 08:21:53,922 [main,0   ] INFO   - DBConnection Pool created!
+=2016-12-28 08:21:54,162 [main,240 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.001 [rmi://127.0.0.1:3001/NodeQueryProcessor]
+=2016-12-28 08:21:56,020 [main,0   ] INFO   - DBConnection Pool created!
+=2016-12-28 08:21:56,267 [main,247 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.004 [rmi://127.0.0.1:3004/NodeQueryProcessor]
+=2016-12-28 08:25:28,140 [RMI TCP Connection(4)-127.0.0.1,0   ] DEBUG  - Tarefa global de consulta: Iniciar as tarefas locais de consulta.
+=2016-12-28 08:25:28,156 [RMI TCP Connection(4)-127.0.0.1,16  ] DEBUG  - Tarefa: Criando tarefa local de consulta 0 para processar o intervalo (1 - 750.001).
+=2016-12-28 08:25:28,211 [RMI TCP Connection(4)-127.0.0.1,71  ] DEBUG  - Tarefa: Criando tarefa local de consulta 1 para processar o intervalo (750.001 - 1.500.001).
+=2016-12-28 08:25:28,258 [RMI TCP Connection(4)-127.0.0.1,118 ] DEBUG  - Tarefa global de consulta: Esperando por processamento de intervalos
+=2016-12-28 08:25:28,329 [Thread-2,214407] DEBUG  - VP: 1 - 75.001. Tamanho = 75.000
+=2016-12-28 08:25:28,343 [Thread-2,212323] DEBUG  - VP: 750.001 - 825.001. Tamanho = 75.000
+=2016-12-28 08:25:28,634 [Thread-2,212614] DEBUG  - QE AVP - Tempo de execução: 274
+=2016-12-28 08:25:28,636 [Thread-2,212616] DEBUG  - VP: 825.001 - 975.001. Tamanho = 150.000
+=2016-12-28 08:25:28,753 [Thread-2,212733] DEBUG  - QE AVP - Tempo de execução: 30
+=2016-12-28 08:25:28,755 [Thread-2,212735] DEBUG  - VP: 975.001 - 1.275.001. Tamanho = 300.000
+=2016-12-28 08:25:28,854 [Thread-2,212834] DEBUG  - QE AVP - Tempo de execução: 21
+=2016-12-28 08:25:28,855 [Thread-2,212835] DEBUG  - VP: 1.275.001 - 1.500.001. Tamanho = 225.000
+=2016-12-28 08:25:28,897 [Thread-2,212877] DEBUG  - QE AVP - Tempo de execução: 30
+=2016-12-28 08:25:29,047 [Thread-2,213027] DEBUG  - Oferta de ajuda número 1 enviando a vizinhos.
+=2016-12-28 08:25:29,047 [Thread-1,215125] DEBUG  - Aceitando oferta de ajuda número 1 originado do nó 1 e recebida do nó 1
+=2016-12-28 08:25:29,129 [RMI TCP Connection(6)-127.0.0.1,989 ] DEBUG  - Intervalo sob responsabilidade do nó 1 está terminado!
+=2016-12-28 08:25:29,134 [Thread-1,213114] DEBUG  - Intervalo (750.001-1.500.001) processado pelo nó 1
+=2016-12-28 08:25:29,141 [Thread-1,215219] DEBUG  - Mensagem de aceitação enviando ao 1
+=2016-12-28 08:25:29,143 [Thread-1,213123] DEBUG  - Ajudando 0
+=2016-12-28 08:25:29,143 [Thread-1,213123] DEBUG  -  processing interval( 412501 - 750001) which is originally from 1
+=2016-12-28 08:25:29,143 [Thread-2,213123] DEBUG  - VP: 412.501 - 637.501. Tamanho = 225.000
+=2016-12-28 08:25:29,181 [Thread-2,215259] DEBUG  - QE AVP - Tempo de execução: 620
+=2016-12-28 08:25:29,183 [Thread-2,215261] DEBUG  - VP: 75.001 - 225.001. Tamanho = 150.000
+=2016-12-28 08:25:29,193 [Thread-2,213173] DEBUG  - QE AVP - Tempo de execução: 36
+=2016-12-28 08:25:29,196 [Thread-2,213176] DEBUG  - VP: 637.501 - 750.001. Tamanho = 112.500
+=2016-12-28 08:25:29,229 [Thread-2,215307] DEBUG  - QE AVP - Tempo de execução: 39
+=2016-12-28 08:25:29,248 [Thread-2,215326] DEBUG  - VP: 225.001 - 412.501. Tamanho = 187.500
+=2016-12-28 08:25:29,246 [Thread-2,213226] DEBUG  - QE AVP - Tempo de execução: 26
+=2016-12-28 08:25:29,296 [Thread-2,215374] DEBUG  - QE AVP - Tempo de execução: 27
+=2016-12-28 08:25:29,303 [Thread-2,215381] DEBUG  - Oferta de ajuda número 1 enviando a vizinhos.
+=2016-12-28 08:25:29,303 [Thread-1,213283] DEBUG  - Aceitando oferta de ajuda número 1 originado do nó 0 e recebida do nó 0
+=2016-12-28 08:25:29,304 [Thread-1,215382] DEBUG  - Intervalo (1-412.501) processado pelo nó 0
+=2016-12-28 08:25:29,305 [Thread-1,213285] DEBUG  - Mensagem de aceitação enviando ao 0
+=2016-12-28 08:25:29,308 [Thread-1,215386] DEBUG  - Ajudando 1
+=2016-12-28 08:25:29,308 [Thread-1,215386] DEBUG  -  but he had no more intervals to process
+=2016-12-28 08:25:29,307 [Thread-2,213287] DEBUG  - Oferta de ajuda número 2 enviando a vizinhos.
+=2016-12-28 08:25:29,309 [Thread-1,215387] DEBUG  - Propagando oferta de ajuda número 2 originada do nó 1 e recebida do nó 1
+=2016-12-28 08:25:29,310 [RMI TCP Connection(6)-127.0.0.1,1170] DEBUG  - Intervalo sob responsabilidade do nó 1 está terminado!
+=2016-12-28 08:25:29,311 [Thread-1,213291] DEBUG  - Intervalo (412.501-750.001) processado pelo nó 1
+=2016-12-28 08:25:29,310 [Thread-1,215388] DEBUG  - RRecusando oferta de ajuda número2 originada do nó 1 e recebida do nó 1
+=2016-12-28 08:25:29,312 [Thread-1,213292] DEBUG  - Recusando oferta de ajuda número 2 recebida do nó 0
+=2016-12-28 08:25:29,312 [Thread-1,213292] DEBUG  - Reenviando oferta!
+=2016-12-28 08:25:29,314 [RMI TCP Connection(4)-127.0.0.1,1174] DEBUG  - Tarefa global de consulta: Esperando por fim dos LQTs.
+=2016-12-28 08:25:29,315 [Thread-1,213295] DEBUG  - Oferta de ajuda número 3 enviando a vizinhos.
+=2016-12-28 08:25:29,451 [RMI TCP Connection(4)-127.0.0.1,1311] DEBUG  - Tarefa: Obtendo resultado final.
+=2016-12-28 08:25:29,452 [RMI TCP Connection(4)-127.0.0.1,1312] DEBUG  - Tarefa Global de Consulta: Terminada.
+=2017-02-18 13:15:16,467 [main,0   ] INFO   - DBConnection Pool created!
+=2017-02-18 13:15:17,320 [main,853 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.001 [rmi://localhost:3001/NodeQueryProcessor]
+=2017-02-18 13:15:18,080 [main,0   ] INFO   - DBConnection Pool created!
+=2017-02-18 13:15:18,357 [main,277 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.002 [rmi://127.0.0.1:3002/NodeQueryProcessor]
+=2017-02-18 13:15:41,908 [RMI TCP Connection(4)-192.168.0.103,0   ] DEBUG  - Tarefa global de consulta: Iniciar as tarefas locais de consulta.
+=2017-02-18 13:15:41,919 [RMI TCP Connection(4)-192.168.0.103,11  ] DEBUG  - Tarefa: Criando tarefa local de consulta 0 para processar o intervalo (1 - 750.001).
+=2017-02-18 13:15:42,345 [RMI TCP Connection(4)-192.168.0.103,437 ] DEBUG  - Tarefa: Criando tarefa local de consulta 1 para processar o intervalo (750.001 - 1.500.001).
+=2017-02-18 13:15:42,399 [RMI TCP Connection(4)-192.168.0.103,491 ] DEBUG  - Tarefa global de consulta: Esperando por processamento de intervalos
+=2017-02-18 13:15:42,521 [Thread-2,24441] DEBUG  - VP: 750.001 - 825.001. Tamanho = 75.000
+=2017-02-18 13:15:42,521 [Thread-2,26054] DEBUG  - VP: 1 - 75.001. Tamanho = 75.000
+=2017-02-18 13:15:45,134 [Thread-2,27054] DEBUG  - QE AVP - Tempo de execução: 2.236
+=2017-02-18 13:15:45,140 [Thread-2,27060] DEBUG  - VP: 825.001 - 975.001. Tamanho = 150.000
+=2017-02-18 13:15:45,433 [Thread-2,27353] DEBUG  - QE AVP - Tempo de execução: 158
+=2017-02-18 13:15:45,434 [Thread-2,27354] DEBUG  - VP: 975.001 - 1.275.001. Tamanho = 300.000
+=2017-02-18 13:15:45,517 [Thread-2,27437] DEBUG  - QE AVP - Tempo de execução: 75
+=2017-02-18 13:15:45,518 [Thread-2,27438] DEBUG  - VP: 1.275.001 - 1.500.001. Tamanho = 225.000
+=2017-02-18 13:15:45,555 [Thread-2,27475] DEBUG  - QE AVP - Tempo de execução: 31
+=2017-02-18 13:15:45,603 [Thread-2,27523] DEBUG  - Oferta de ajuda número 1 enviando a vizinhos.
+=2017-02-18 13:15:45,603 [Thread-1,29136] DEBUG  - Aceitando oferta de ajuda número 1 originado do nó 1 e recebida do nó 1
+=2017-02-18 13:15:45,611 [RMI TCP Connection(6)-192.168.0.103,3703] DEBUG  - Intervalo sob responsabilidade do nó 1 está terminado!
+=2017-02-18 13:15:45,620 [Thread-1,27540] DEBUG  - Intervalo (750.001-1.500.001) processado pelo nó 1
+=2017-02-18 13:15:45,632 [Thread-1,29165] DEBUG  - Mensagem de aceitação enviando ao 1
+=2017-02-18 13:15:45,641 [Thread-1,27561] DEBUG  - Ajudando 0
+=2017-02-18 13:15:45,641 [Thread-2,27561] DEBUG  - VP: 412.501 - 637.501. Tamanho = 225.000
+=2017-02-18 13:15:45,642 [Thread-1,27562] DEBUG  -  processing interval( 412501 - 750001) which is originally from 1
+=2017-02-18 13:15:45,690 [Thread-2,27610] DEBUG  - QE AVP - Tempo de execução: 42
+=2017-02-18 13:15:45,693 [Thread-2,27613] DEBUG  - VP: 637.501 - 750.001. Tamanho = 112.500
+=2017-02-18 13:15:45,743 [Thread-2,27663] DEBUG  - QE AVP - Tempo de execução: 43
+=2017-02-18 13:15:45,778 [Thread-1,29311] DEBUG  - Aceitando oferta de ajuda número 2 originado do nó 1 e recebida do nó 1
+=2017-02-18 13:15:45,779 [Thread-2,27699] DEBUG  - Oferta de ajuda número 2 enviando a vizinhos.
+=2017-02-18 13:15:45,782 [Thread-1,29315] DEBUG  - Mensagem de aceitação enviando ao 1
+=2017-02-18 13:15:45,786 [Thread-2,27706] DEBUG  - VP: 243.751 - 356.251. Tamanho = 112.500
+=2017-02-18 13:15:45,786 [Thread-1,27706] DEBUG  - Ajudando 0
+=2017-02-18 13:15:45,806 [Thread-1,27726] DEBUG  -  processing interval( 243751 - 412501) which is originally from 1
+=2017-02-18 13:15:45,806 [Thread-1,27726] ERROR  - Exceção de Tarefa Local de Consulta: IntervalNodeTree.removeInterval: can't remove (412501,750001) from (243751,412501) !
+=2017-02-18 13:15:45,938 [Thread-2,27858] DEBUG  - QE AVP - Tempo de execução: 116
+=2017-02-18 13:15:45,943 [Thread-2,27863] DEBUG  - VP: 356.251 - 412.501. Tamanho = 56.250
+=2017-02-18 13:15:46,043 [Thread-2,27963] DEBUG  - QE AVP - Tempo de execução: 85
+=2017-02-18 13:15:46,308 [Thread-2,29841] DEBUG  - QE AVP - Tempo de execução: 3.103
+=2017-02-18 13:15:46,310 [Thread-2,29843] DEBUG  - VP: 75.001 - 225.001. Tamanho = 150.000
+=2017-02-18 13:15:46,408 [Thread-2,29941] DEBUG  - QE AVP - Tempo de execução: 44
+=2017-02-18 13:15:46,411 [Thread-2,29944] DEBUG  - VP: 225.001 - 243.751. Tamanho = 18.750
+=2017-02-18 13:15:46,462 [Thread-2,29995] DEBUG  - QE AVP - Tempo de execução: 31
+=2017-02-18 13:15:46,498 [Thread-2,30031] DEBUG  - Oferta de ajuda número 1 enviando a vizinhos.
+=2017-02-18 13:15:46,499 [Thread-1,30032] DEBUG  - Intervalo (1-243.751) processado pelo nó 0
+=2017-02-18 13:18:39,749 [main,0   ] INFO   - DBConnection Pool created!
+=2017-02-18 13:18:40,162 [main,413 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.001 [rmi://localhost:3001/NodeQueryProcessor]
+=2017-02-18 13:18:42,663 [main,0   ] INFO   - DBConnection Pool created!
+=2017-02-18 13:18:42,964 [main,301 ] INFO   - Processador de Consulta do Nó está sendo executado na porta 3.002 [rmi://127.0.0.1:3002/NodeQueryProcessor]
+=2017-02-18 13:18:51,487 [RMI TCP Connection(4)-192.168.0.103,0   ] DEBUG  - Tarefa global de consulta: Iniciar as tarefas locais de consulta.
+=2017-02-18 13:18:51,501 [RMI TCP Connection(4)-192.168.0.103,14  ] DEBUG  - Tarefa: Criando tarefa local de consulta 0 para processar o intervalo (1 - 750.001).
+=2017-02-18 13:18:51,558 [RMI TCP Connection(4)-192.168.0.103,71  ] DEBUG  - Tarefa: Criando tarefa local de consulta 1 para processar o intervalo (750.001 - 1.500.001).
+=2017-02-18 13:18:51,613 [RMI TCP Connection(4)-192.168.0.103,126 ] DEBUG  - Tarefa global de consulta: Esperando por processamento de intervalos
+=2017-02-18 13:18:51,629 [Thread-2,8966] DEBUG  - VP: 750.001 - 825.001. Tamanho = 75.000
+=2017-02-18 13:18:51,629 [Thread-2,11880] DEBUG  - VP: 1 - 75.001. Tamanho = 75.000
+=2017-02-18 13:23:21,025 [Thread-2,278362] DEBUG  - QE AVP - Tempo de execução: 269.141
+=2017-02-18 13:23:21,027 [Thread-2,278364] DEBUG  - VP: 825.001 - 975.001. Tamanho = 150.000
+=2017-02-18 13:24:27,147 [Thread-2,347398] DEBUG  - QE AVP - Tempo de execução: 334.620
+=2017-02-18 13:24:27,149 [Thread-2,347400] DEBUG  - VP: 75.001 - 225.001. Tamanho = 150.000
+=2017-02-18 13:27:10,814 [Thread-2,508151] DEBUG  - QE AVP - Tempo de execução: 229.564
+=2017-02-18 13:27:10,818 [Thread-2,508155] DEBUG  - VP: 975.001 - 1.275.001. Tamanho = 300.000
+=2017-02-18 13:28:20,731 [Thread-2,580982] DEBUG  - QE AVP - Tempo de execução: 233.456
+=2017-02-18 13:28:20,735 [Thread-2,580986] DEBUG  - VP: 225.001 - 525.001. Tamanho = 300.000
+=2017-02-18 13:31:42,682 [Thread-2,780019] DEBUG  - QE AVP - Tempo de execução: 229.564
+=2017-02-18 13:31:42,685 [Thread-2,780022] DEBUG  - VP: 1.275.001 - 1.500.001. Tamanho = 225.000
+=2017-02-18 13:37:11,899 [Thread-2,1109236] DEBUG  - QE AVP - Tempo de execução: 229.564
+=2017-02-18 13:37:11,904 [Thread-2,1112155] DEBUG  - QE AVP - Tempo de execução: 233.456
+=2017-02-18 13:37:11,907 [Thread-2,1112158] DEBUG  - VP: 525.001 - 750.001. Tamanho = 225.000
+=2017-02-18 13:37:12,071 [Thread-2,1109408] DEBUG  - Oferta de ajuda número 1 enviando a vizinhos.
+=2017-02-18 13:37:12,071 [Thread-1,1112322] DEBUG  - Aceitando oferta de ajuda número 1 originado do nó 1 e recebida do nó 1
+=2017-02-18 13:37:12,077 [RMI TCP Connection(19)-192.168.0.103,1100590] DEBUG  - Intervalo sob responsabilidade do nó 1 está terminado!
+=2017-02-18 13:37:12,081 [Thread-1,1109418] DEBUG  - Intervalo (750.001-1.500.001) processado pelo nó 1
+=2017-02-18 13:37:12,092 [Thread-1,1112343] DEBUG  - Mensagem de aceitação enviando ao 1
+=2017-02-18 13:37:12,095 [Thread-1,1109432] DEBUG  - Ajudando 0
+=2017-02-18 13:37:12,096 [Thread-1,1109433] DEBUG  -  but he had no more intervals to process
+=2017-02-18 13:38:08,584 [Thread-2,1168835] DEBUG  - QE AVP - Tempo de execução: 56.335
+=2017-02-18 13:38:08,597 [Thread-2,1168848] DEBUG  - Oferta de ajuda número 1 enviando a vizinhos.
+=2017-02-18 13:38:08,597 [Thread-1,1165934] DEBUG  - Propagando oferta de ajuda número 1 originada do nó 0 e recebida do nó 0
+=2017-02-18 13:38:08,603 [RMI TCP Connection(21)-192.168.0.103,1157116] DEBUG  - Intervalo sob responsabilidade do nó 0 está terminado!
+=2017-02-18 13:38:08,606 [Thread-1,1165943] DEBUG  - RRecusando oferta de ajuda número1 originada do nó 0 e recebida do nó 0
+=2017-02-18 13:38:08,610 [Thread-1,1168861] DEBUG  - Intervalo (1-750.001) processado pelo nó 0
+=2017-02-18 13:38:08,618 [Thread-1,1168869] DEBUG  - Recusando oferta de ajuda número 1 recebida do nó 1
+=2017-02-18 13:38:08,619 [Thread-1,1168870] DEBUG  - Reenviando oferta!
+=2017-02-18 13:38:08,621 [Thread-1,1168872] DEBUG  - Oferta de ajuda número 2 enviando a vizinhos.
+=2017-02-18 13:38:08,623 [Thread-1,1165960] DEBUG  - Propagando oferta de ajuda número 2 originada do nó 0 e recebida do nó 0
+=2017-02-18 13:38:08,627 [Thread-1,1165964] DEBUG  - RRecusando oferta de ajuda número2 originada do nó 0 e recebida do nó 0
+=2017-02-18 13:38:08,630 [RMI TCP Connection(4)-192.168.0.103,1157143] DEBUG  - Tarefa global de consulta: Esperando por fim dos LQTs.
+=2017-02-18 13:38:09,293 [RMI TCP Connection(4)-192.168.0.103,1157806] DEBUG  - Tarefa: Obtendo resultado final.
+=2017-02-18 13:38:09,293 [RMI TCP Connection(4)-192.168.0.103,1157806] DEBUG  - Tarefa Global de Consulta: Terminada.
